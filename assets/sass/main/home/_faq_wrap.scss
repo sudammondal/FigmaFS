@@ -1,0 +1,62 @@
+.faq_wrap {
+    padding: 128px 0;
+    .collaps_inner {
+        .collaps_items {
+            border-bottom: 2px solid #ECECF1;
+            padding: 32px 0;
+            &:last-child {
+                border: none;
+            }
+            .collaps_items_grid {
+                .collaps_head {
+                    .collaps_number{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        text-align: center;
+                        color: #2405F2;
+                        margin: 0;
+                    }
+                    .btn_primary {
+                        width: 100%;
+                        margin-left: 60px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        color: #282938;
+                        &[aria-expanded="false"] {
+                            .fa_icon {
+                                .icons {
+                                    transform: rotate(45deg);
+                                    font-size: 20px;
+                                    transition: all 0.3s ;
+                                }
+                               
+                            }
+                        }
+                        &[aria-expanded="true"] {
+                            .fa_icon {
+                                .icons {
+                                    transform: rotate(0deg);
+                                    font-size: 20px;
+                                    transition: all 0.3s ;
+                                }
+                               
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            .card-body {
+                padding: 16px 0 16px 90px;
+                max-width: 624px;
+                width: 100%;
+            }
+        }
+    }
+}

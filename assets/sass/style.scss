@@ -1,0 +1,30 @@
+@import "./main/home/Global" ;
+@import "./main/home/header" ;
+@import "./main/home/heroWrap" ;
+@import "./main/home/workWrapper" ;
+@import "./main/home/project_wrap" ;
+@import "./main/home/feature_wrap" ;
+@import "./main/home/testimonial_wrap" ;
+@import "./main/home/faq_wrap" ;
+@import "./main/home/contract_wrap" ;
+@import "./main/home/footer" ;
+
+/*====about====*/
+@import "./main/AboutUs/about_herow";
+@import "./main/AboutUs/process_wrap";
+@import "./main/AboutUs/Mission_wrap";
+@import "./main/AboutUs/teemWrap";
+
+/*====priceing====*/
+@import "./main/pricing/priceing_wrao";
+
+/*====work====*/
+@import "./main/work/work";
+@import "./main/work/contact_us";
+@import "./main/work/work_filter_wrap";
+
+/*====ReadCaseStudies====*/
+@import "./main/ReadCaseStudies/ReadCaseStudies";
+
+/*====responsive====*/
+@import "./main/responsive" ;

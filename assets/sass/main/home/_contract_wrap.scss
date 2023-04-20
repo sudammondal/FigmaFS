@@ -1,0 +1,48 @@
+.contract_wrap {
+    .grid_contract {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        .contarct_inner_left {
+            background-image: url(../Images/StartConvert.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding:  96px 96px 48px 96px; 
+            position: relative;
+            z-index: 0;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color:rgba(28, 30, 83, 0.5); 
+                z-index: -1;
+            }
+        }
+        .contarct_inner_right {
+            background: #1C1E53;
+            padding:  96px 96px 48px 96px; 
+            .feature_inner {
+                .fw-semibold {
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 36px;
+                    margin: 0 0 12px 0;
+                    color: #ffffff;
+                }
+            }
+            form {
+                input {
+                    background-color: transparent;
+                    border: 1.5px solid rgba(255, 255, 255, 0.05);
+                    border-radius: 8px;
+                    padding: 18px 32px;
+                }
+            }
+        }
+    }
+}

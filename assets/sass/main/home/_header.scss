@@ -1,0 +1,70 @@
+.header  {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #1C1E53;
+    box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+    z-index: 888;
+    transition: all 0.5s ease;
+    .navbar {
+        .navbar_brand {
+            .brand_logo {
+                width: 122px;
+                height: 24.71px;
+            }
+        }
+        .collapses {
+            .navbar-nav {
+                .nav-item {
+                    .nav_link {
+                        color: #cbbbbb;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 28px;
+                        transition: all 0.5s ease;
+                        margin-right: 32px;
+                        &:hover {
+                            color: #FFFFFF;
+                        }
+                    }
+                   
+                }
+            }
+            .nav_button {
+                border: 2px solid rgba(244, 246, 252, 0.2);
+                border-radius: 41px;
+                color: #ffffff;
+                padding: 16px 48px;
+                transition: all 0.5s ease;
+                background-color: transparent;
+                &:hover {
+                    background-color: #FCD980;
+                }
+            }
+        }
+    }
+}
+a.nav_link {
+    color: #cbbbbb;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all 0.5s ease;
+    margin-right: 32px;
+}
+.buttonn3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 41px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    margin-left: 40px;
+}

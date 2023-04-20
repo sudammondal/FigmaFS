@@ -1,0 +1,43 @@
+.workWrapper {
+    padding: 128px 0 128px;
+    background-color: #F4F6FC;
+    .workinner_left {
+        max-width: 405px;
+        width: 100%;
+        .work_head {
+            color: #282938;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            margin-bottom: 16px;
+        }
+
+    }
+    .workinner_right {
+        .pointer_inne {
+            max-width: 310px;
+            width: 100%;
+            .pointerimg{
+                display: inline-block;
+                .pointer {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                }
+            }
+            .pointer_hed {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 48px;
+                color: #282938;
+            }
+        }
+    }
+}

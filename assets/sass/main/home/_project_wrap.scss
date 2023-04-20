@@ -1,0 +1,107 @@
+.projectWrap {
+    padding: 128px 0 128px;
+    .workhud_head {
+        margin-bottom: 64px;
+    }
+    .workhud_inner{
+        background-image: url(../Images/Card1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        position: relative;
+        &::before {
+            content: "";
+            width: 0%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            transition: all 0.5s;
+            background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+        }
+        .work_hudproject{
+            width: 47%;
+            height: 100%;
+            display: flex;
+            align-items: end;
+            position: absolute;
+            left: -20px;
+            top: 0;
+            opacity: 0;
+            transition: all 0.3s;
+            .hud_containt {
+                padding: 48px 48px 76px 48px;
+            }
+        }
+        &:hover {
+            &::before {
+                content: "";
+                background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                width: 47%;
+            }
+            .work_hudproject{
+                width: 47%;
+                height: 100%;
+                display: flex;
+                align-items: end;
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: 1;
+                transition: all 0.6s;
+                
+            }
+        }
+    }
+    .grid {
+        display: grid;
+        grid-gap: 24px;
+        .design_items {
+            position: relative;
+            height: 288px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            &::before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                z-index: 1;
+                opacity: 0;
+                transition: all 0.5s;
+            }
+            .designInner {
+                position: absolute;
+                bottom: 20px;
+                left: 45px;
+                z-index: 2;
+                width: 201px;
+                transition: all 0.5s;
+                opacity: 0;
+            }
+            &.design {
+                background-image: url(../Images/Rectangle313.png);
+            }
+            &.design2 {
+                background-image: url(../Images/Card.png);
+            }
+            &:hover{
+                &::before{
+                    opacity: 1;
+                }
+                .designInner {
+                    bottom: 56px;
+                    opacity: 1;
+                }
+
+            }
+        }
+    }
+}

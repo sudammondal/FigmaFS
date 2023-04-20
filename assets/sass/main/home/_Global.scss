@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Poppins', serif;
+    }
+    a {
+        text-decoration: none;
+    }
+    .main_manu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        display: flex;
+        .list_link {
+            margin-right: 26px;
+        }
+       
+    }
+}
+.media {
+    color: #FFFFFF;
+}
+.colormedia {
+    color: #282938;
+}
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    opacity: 0.87;
+}
+.font-24 {
+    font-size: 24px;
+    line-height: 36px;
+}
+.font-16 {
+    font-size: 16px;
+    line-height: 28px;
+}
+.hero_head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    margin-bottom: 24px;
+    color: #282938;
+}
+.header2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+.header3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+}
+.header5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+}
+.pragraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff70;
+}
+.pragraph_dark {
+    color: #282938;
+    margin-bottom: 16px;
+}
+.button2 {
+    background-color: #FCD980;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    padding: 16px 48px;
+    transition: all 0.5s ease; 
+    &:hover {
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+}
+.button3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 41px;
+    transition: all 0.5s ease;
+    margin-left: 40px;
+    color: #FFFFFF;
+    .arrowImg { 
+       margin-left: 10px;
+    }
+    
+}
+.button3:hover { 
+    color: #ffffff;
+    
+}
+.ff {
+    color: #ffffff;
+    &:hover {
+        color: #ced4da;
+    }
+}
+.colorbutton {
+    color:#2405F2;
+    &:hover {
+        color:#2405F2;
+    }
+}
+.colorbuttondefol {
+    color:#282938;
+    &:hover {
+        color:#2405F2;
+    }
+}
+.img_raund {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tem_member {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: all 0.5s;
+        border-radius: 50%;
+       
+    }
+    .member_media {
+        top: 96%;
+        transition: all 0.5s;
+    }
+}
+.tem_inner {
+    &:hover {
+        .tem_member {
+             &::before {
+                opacity: 1;
+                background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+            } 
+            .member_media {
+                top: 70%;
+            }
+        } 
+    }
+}
+.nav_button {
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    color: #ffffff;
+    padding: 16px 48px;
+    transition: all 0.5s ease;
+    background-color: transparent;
+    &:hover {
+        background-color: #FCD980;
+    }
+}
+.nav_buttonwork {
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    color: #ffffff;
+    padding: 16px 48px;
+    transition: all 0.5s ease;
+    background-color: transparent;
+    &:hover {
+        background-color: #FCD980;
+    }
+}
+.button_contact {
+    border: 2px solid #ced4da;
+    border-radius: 41px;
+    color: #282938;
+    padding: 16px 48px;
+    transition: all 0.5s ease;
+    background-color: transparent;
+    &:hover {
+        background-color: #282938;
+        color: #ffffff;
+    }
+}
+.form-control {
+    padding: 18px 32px;
+    border-radius: 8px;
+}
